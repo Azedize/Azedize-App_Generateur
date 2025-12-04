@@ -64,6 +64,7 @@ const App: React.FC = () => {
       );
     }
   }, [view]);
+  console.log("Current view:", view);
 
   /** SIDEBAR ANIMATION */
   useEffect(() => {
