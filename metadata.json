@@ -1,0 +1,7 @@
+{
+  "name": "XPass",
+  "description": "The professional all-in-one security toolkit. Features advanced password generation, local encrypted vault, security analysis, and developer tools like hashing and UUID generation.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
