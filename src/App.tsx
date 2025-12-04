@@ -68,8 +68,6 @@ const App: React.FC = () => {
       setVaultState(prev => ({ ...prev, isLocked: true, masterPassword: null }));
       setView('vault');
   };
-  console.log("Rendering App with view:", view);
-
   return (
     <div className="flex h-screen bg-background text-foreground overflow-hidden font-sans">
       {/* Sidebar for Desktop */}
