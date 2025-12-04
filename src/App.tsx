@@ -68,7 +68,6 @@ const App: React.FC = () => {
       setVaultState(prev => ({ ...prev, isLocked: true, masterPassword: null }));
       setView('vault');
   };
-  console.log("Rendering App with view:", view);
 
   return (
     <div className="flex h-screen bg-background text-foreground overflow-hidden font-sans">
@@ -154,12 +153,12 @@ const App: React.FC = () => {
           <footer className="relative z-10 py-6 text-center text-sm text-muted-foreground/60">
             <span className="opacity-80">&copy; {new Date().getFullYear()} &middot; {t.footer_made[lang]} </span>
             <a 
-              href="https://anassgouzgar.com" 
+              href="" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="font-medium text-foreground hover:text-primary transition-colors border-b border-transparent hover:border-primary/50"
             >
-              Anass GOUZGAR
+              Azedsine Chentouf
             </a>
           </footer>
       </main>
